@@ -13,7 +13,7 @@ var options = ['R', 'P', 'S'];
 function playGame () {
 
 //  Getting player's choice    
-var playerChoice = window.prompt("Enter R, P, or P"); 
+var playerChoice = prompt("Enter R, P, or P"); 
 
 //  Converting to uppercase text input
 playerChoice = playerChoice.toUpperCase(); 
@@ -61,3 +61,7 @@ playGame()  //  Calling function to start the game
 
 var centeredH1 = document.getElementsByTagName("h1")[0];
 centeredH1.style.textAlign = "center";
+
+document.getElementsByTagName("h1")[0].style.color = "blue";
+
+
